@@ -9,27 +9,12 @@
 /* Begin PBXBuildFile section */
 		88888A062BF48B6D000F3F6E /* enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88888A052BF48B6D000F3F6E /* enum.swift */; };
 		88888A0C2BF48C0F000F3F6E /* ScanflowCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F191182BF3272500B026FA /* ScanflowCore.framework */; platformFilter = ios; };
-		88888A0D2BF48C0F000F3F6E /* ScanflowCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 88F191182BF3272500B026FA /* ScanflowCore.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		888C00A92BEE46ED007CA8A1 /* WebserviceCameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888C00A82BEE46ED007CA8A1 /* WebserviceCameraManager.swift */; };
 		8893CD212BE0FEDA00D820BE /* scanflowWebserviceSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8893CD202BE0FEDA00D820BE /* scanflowWebserviceSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8893CD282BE0FFEF00D820BE /* WebserviceCaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8893CD272BE0FFEF00D820BE /* WebserviceCaptureSession.swift */; };
 		8893CD2A2BE145E600D820BE /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8893CD292BE145E500D820BE /* Extension.swift */; };
 		8893CD2C2BE1462300D820BE /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8893CD2B2BE1462300D820BE /* ResponseModel.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		88888A0B2BF48C0D000F3F6E /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				88888A0D2BF48C0F000F3F6E /* ScanflowCore.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		88888A052BF48B6D000F3F6E /* enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enum.swift; sourceTree = "<group>"; };
@@ -106,7 +91,6 @@
 				8893CD192BE0FEDA00D820BE /* Sources */,
 				8893CD1A2BE0FEDA00D820BE /* Frameworks */,
 				8893CD1B2BE0FEDA00D820BE /* Resources */,
-				88888A0B2BF48C0D000F3F6E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
