@@ -1,0 +1,6 @@
+framework module scanflowWebserviceSDK {
+  umbrella header "scanflowWebserviceSDK.h"
+  export *
+
+  module * { export * }
+}
